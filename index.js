@@ -7,7 +7,7 @@ app.use(cors());
 
 const courses = require('./data/courses.json');   //c
 
-const allCourses = require('./data/AllCourses.json');   //n
+const allCourses = require('./data/allCourses.json');   //n
 
 app.get('/', (req, res) => {
     res.send("News API Running...")
